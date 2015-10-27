@@ -1,0 +1,6 @@
+Intellij:
+
+1. git clone
+2. create new Java EE project with the cloned name
+3. create folder "classes" under web
+4. project structure -> modules -> Paths -> use module compile output path, point the output path to web/WEB-INF/classes
