@@ -6,7 +6,7 @@
 
     <servlet>
         <servlet-name>HelloServlet</servlet-name>
-        <servlet-class>com.boyang.servlet.Hello</servlet-class>
+        <servlet-class>com.codecb.servlet.Hello</servlet-class>
     </servlet>
 
     <servlet-mapping>

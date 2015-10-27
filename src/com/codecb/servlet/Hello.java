@@ -1,4 +1,4 @@
-package com.boyang.servlet;
+package com.codecb.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -16,11 +16,16 @@ public class Hello extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // Set response content type
-        response.setContentType("text/html");
+//        // Set response content type
+//        response.setContentType("text/html");
+//
+//        // Actual logic goes here.
+//        PrintWriter out = response.getWriter();
+//        out.println("<h3>" + "How you doing?" + "</h3>");
 
-        // Actual logic goes here.
+
+        response.setContentType("application/json");
         PrintWriter out = response.getWriter();
-        out.println("<h3>" + "wrongPasswdMsg" + "</h3>");
+        out.println("{\"name\":\"abcd\"}");
     }
 }
