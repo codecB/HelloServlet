@@ -4,3 +4,5 @@ Intellij:
 2. create new Java EE project with the cloned name
 3. create folder "classes" under web
 4. project structure -> modules -> Paths -> use module compile output path, point the output path to web/WEB-INF/classes
+5. Launch configuration, update URL to http://localhost:8080/<context-root> in application.xml
+6. git checkout web/WEB-INF/web.xml
