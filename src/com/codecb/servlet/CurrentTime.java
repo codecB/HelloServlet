@@ -18,6 +18,7 @@ public class CurrentTime extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
         //get current date time with Date()
         Date date = new Date();

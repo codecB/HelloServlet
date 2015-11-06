@@ -1,5 +1,6 @@
 package com.codecb.servlet;
 
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -16,6 +17,7 @@ public class Hello extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
 
 //        sendHtmlCode(request,response);
 //        sendHtml(request,response);
